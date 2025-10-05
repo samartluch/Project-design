@@ -536,7 +536,7 @@ body {
 
 }
 /* mobile phone */
-@media (max-width:400px) {
+@media (max-width:600px) {
   .promo-banner {
     width: 90%;
     flex-direction: row;
@@ -629,5 +629,109 @@ body {
     padding: 10px 0px;
 
   }
+  .navbar img{
+    height: 40px;
+    width: 30px;
+  }
+  .navbar ul li a{
+    font-size: 12px;
+    padding: 4px 6px;
+  }
 
+}
+@media (max-width:400px) {
+  .promo-banner {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .promo-watch img {
+    width: 150px;
+    height: 30vh;
+    margin-left: 0px;
+    margin-top: 10px;
+
+  }
+  .navbar ul li a{
+    font-size: 10px;
+    padding: 4px 6px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .sp {
+    font-size: 12px;
+  }
+
+  .promo-box p {
+    font-size: 20px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+
+  .fan-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .watch-save {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    padding: 10px 40px;
+    background: transparent;
+    /* margin-left:80px; */
+  }
+
+  .promo-watch img {
+    width: 150px;
+    height: 30vh;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .watch-save h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .w-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr ;
+    padding: 0 20px;
+  }
+  .nav-list {
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 0px;
+
+  }
+  .footer-icons {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px;
+
+  }
 }
