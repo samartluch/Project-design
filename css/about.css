@@ -412,6 +412,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(1, 1fr);
     display: grid;
+    /* margin: 0; */
       
   }
   .navbar img{
@@ -437,5 +438,16 @@ body {
     width: 120px;
     padding: 8px 0;
     font-size: 12px;
+  }
+  .shop-cards{
+    grid-template-columns: 1fr ;
+  }
+  .footer-nav{
+  display: flex;
+  padding:20px;
+  }
+  .footer-nav ul li a{
+    font-size: 10px;
+    padding: 2px 6px;
   }
 }
