@@ -364,7 +364,7 @@ button:hover::before {
     width: 20px;
   }
   .navbar ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
   .navbar ul li a{
